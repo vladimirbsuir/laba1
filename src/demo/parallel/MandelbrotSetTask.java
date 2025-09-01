@@ -31,6 +31,7 @@
 package demo.parallel;
 
 
+import java.awt.Color;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 import javafx.concurrent.Task;
@@ -351,13 +352,13 @@ class MandelbrotSetTask extends Task<Long> {
          * Color stops for colors table: color values
          */
         Color[] cc = {
-            Color.rgb(40, 0, 0),
-            Color.RED,
+            Color.rgb(250, 10, 20),
+            Color.YELLOW,
             Color.WHITE,
-            Color.RED,
-            Color.rgb(100, 0, 0),
-            Color.RED,
-            Color.rgb(50, 0, 0)
+            Color.BLUE,
+            Color.rgb(100, 50, 0),
+            Color.GREEN,
+            Color.rgb(88, 88, 0)
         };
         
         /**
